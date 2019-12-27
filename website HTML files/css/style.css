@@ -1,0 +1,100 @@
+body {
+    background-color: lightblue;
+    align-content: center;
+    align-items: center;
+    text-align-all: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 50px;
+}
+
+.bar {
+    fill: lightcyan;
+}
+
+.highlight {
+    fill: steelblue;
+}
+
+nav {
+    width: 100%;
+    height: 190px;
+    background-color: #e0ffff;
+    align-content: center;
+}
+
+nav a {
+    font-family: "Arial Rounded MT Bold";
+    color: #222;
+    font-size: 22px;
+    padding: 3px;
+    text-align: center;
+}
+
+a {
+    font-family: "Arial Rounded MT Bold";
+    color: #222;
+    font-size: 29px;
+    padding: 3px;
+    text-align: center;
+    align-content: center;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+
+}
+
+nav ul li a {
+    font-family: "Arial Rounded MT Bold";
+    color: #222;
+    font-size: 15px;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    width: 500px;
+    background-color: #efffff;
+    border-radius: 4px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+
+nav ul li ul li {
+    width: 500px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+nav ul li a:hover {
+    background-color: antiquewhite;
+}
+
+nav ul li a:target {
+    background-color: antiquewhite;
+}
+
+nav ul li ul li a {
+    padding: 4px 4px;
+}
+
+nav ul li ul li:hover a {
+    background-color: antiquewhite;
+}
